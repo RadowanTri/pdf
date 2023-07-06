@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @media print {
+      
+    }     
+    body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        position: relative;
+      }
+      
+      .content {
+        position: relative;
+        height: 100%;
+        padding-left: 30px;
+        padding-right: 20px;
+      
+      }
+
+    .borone {
+            width: 10px;
+            height:98mm;
+            display: block;
+            
+
+        }
+
+        .bordertri {
+            position: absolute;
+            left: 0;
+        }
+        .borone:nth-child(1){
+            background-color: #312782;
+            margin-bottom: 1.5mm;
+            
+
+        }
+        .borone:nth-child(2){
+            background-color: #cf142b;
+            margin-bottom: 1.5mm;
+        }
+        .borone:nth-child(3){
+            background-color: #006633;
+           
+        }
+        .background-img {
+          display: inline-block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          /* width: 100%; */
+        }
+   .background-img img{
+    width: 400px;
+    height: 409px;
+
+   }
+   h5{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+   }
+   p{
+    color: #076633;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+   }
+   .adflex{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 4px;
+   }    
+      
+   .adress-wrapper {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+  padding-top: 20px;
+}
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <div class="bordertri">
+        <div class="borone"></div>
+        <div class="borone"></div>
+        <div class="borone"></div>
+    </div>
+    <div class="logo">
+        <img src="Logo (1).png" alt="logos">
+    </div>
+    <div class="background-img">
+        <img src="Group.png" alt="">
+    </div>
+    <div class="adress-wrapper">
+      <div class="address-one">
+        <div class="adflex">
+          <img src="Frame.png" alt="">
+          <h5>UNITED KINGDOM</h5>
+        </div>
+        <div>
+          <p>
+     189 Foundry Lane Souththampton SO15 3JZ <br>
+UK Incorporation No: 12361659<br>
+Mob: +44 (0) 238 052 8262 <br>
+Tel: +44 (0) 755 482 3078
+          </p>
+
+        </div>
+      </div>
+      <div class="address-two">
+        <div class="adflex">
+          <img src="Frame.png" alt="">
+          <h5>Bangladesh</h5>
+        </div>
+        <div>
+          <p>
+            336/7 East Rampura,Khilgaon
+Dhaka,1219 <br>
+BD Incorporation No: C-161996/2020 <br>
+Mob: +88 (0) 174 396 6200
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
